@@ -1,105 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azalinworks - Augma II</title>
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="/images/favicom2.png"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azalinworks - Augma II</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicom2.png" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
     body {
-	background-image: url("images/tile5.gif");
-	color: #b8faff;
-	font-family: Ms Gothic, Helvetica, Arial, Sans-Serif;
-	font-size: 18px;
-	text-align: Center;
-	cursor: url("cursor.png"), auto;
-	a:hover {
-		cursor: url("hcursor.png"), auto;
+      background-image: url("images/tile5.gif");
+      color: #b8faff;
+      font-family: Ms Gothic, Helvetica, Arial, Sans-Serif;
+      font-size: 18px;
+      text-align: Center;
+      cursor: url("cursor.png"), auto;
     }
-	
-	.crt::after {
-  content: " ";
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(18, 16, 16, 0.1);
-  opacity: 0;
-  z-index: 2;
-  pointer-events: none;
-}
-.crt::before {
-  content: " ";
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
-  linear-gradient(
-  90deg, 
-  rgba(255, 0, 0, 0.06), 
-  rgba(0, 255, 0, 0.02), 
-  rgba(0, 0, 255, 0.06));
-  z-index: 2;
-  background-size: 
-  100% 2px, 
-  3px 100%;
-  pointer-events: none;
-}
-.crt {
-  animation: textShadow 1.6s infinite;
-}
 
-h1{
-	text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
-}
-b{
-	text-shadow:1px 1px 4px #adffdd, 1px 1px 4px #76ad96;
-}
+    a:hover {
+      cursor: url("hcursor.png"), auto;
+    }
 
-.imageClass {
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7));
-  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7));
-}
+    .crt::after {
+      content: " ";
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(18, 16, 16, 0.1);
+      opacity: 0;
+      z-index: 2;
+      pointer-events: none;
+    }
 
-.imageClass:hover {
-  filter: brightness(140%);
-}
+    .crt::before {
+      content: " ";
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+        linear-gradient(90deg,
+          rgba(255, 0, 0, 0.06),
+          rgba(0, 255, 0, 0.02),
+          rgba(0, 0, 255, 0.06));
+      z-index: 2;
+      background-size:
+        100% 2px,
+        3px 100%;
+      pointer-events: none;
+    }
 
-	</style>
+    .crt {
+      animation: textShadow 1.6s infinite;
+    }
+
+    h1 {
+      text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+    }
+
+    b {
+      text-shadow: 1px 1px 4px #adffdd, 1px 1px 4px #76ad96;
+    }
+
+    .imageClass {
+      -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
+      filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
+    }
+
+    .imageClass:hover {
+      filter: brightness(140%);
+    }
+  </style>
 </head>
-<body style="margin-left:250px; margin-right:250px"; class=crt>
-	<br>
-	<br>
-    <a><img href="https://azalin.nekoweb.org/" src="/images/azalin.gif" alt="Hey, that's us!")></a>
-    <br>
-    <a href="index.html"><img class=imageClass src="/images/home.png"></a><a href="vns.html"><img class=imageClass src="/images/visualnovels.png"></a><a href="about.html"><img class=imageClass src="/images/about.png"></a><a class=imageClass href="contact.html"><img class=imageClass src="/images/contact.png"></a><a href="extras.html"><img class=imageClass src="/images/extras.png"></a><a href="not_found.html"><img class=imageClass src="/images/wiki.png"></a>
-    <br>
-    <br>
-     <marquee style="color:#f23d3d"> <img src="/images/rosen1.png">Rosebound currently in development!<img src="/images/rosen2.png"> <img src="/images/moon.png"><font color="3dfff2">Caelestis Phylaca will receive more updates after the release of Rosebound.</font><img src="/images/moon.png"> <img src="/images/augmaII.png"><font color="#d075fa">Augma II Arc I will also be receiving a remake titled Augma II: Endless Vogelkafig, a complete reimagining of Augma and beyond.</font><img src="/images/augmaII.png"><img src="/images/evileye.png"><font color="#ffffff">di/aphragm para/digHm has been fully released.</font><img src="/images/evileye.png"></marquee>
-    <br>
-    <br>
-    <b class=crt>AZALINWORKS WORK NUMBER 4: AUGMA II ENDLESS VOGELKAFIG</b>
-    <br>
-	<br>
-	More information coming soon!
-	<br>
-	<br>
-    <a href="https://twitter.com/azalinworks"><img class=imageClass src="/images/twitter.png"></a><a href="https://bsky.app/profile/azalinworks.bsky.social"><img class=imageClass src="/images/bluesky.png"></a><a href="https://azalinworks.itch.io"><img class=imageClass src="/images/itchio.png"></a><a href="https://discord.gg/GFHVRD77bM"><img class=imageClass src="/images/discord.png"><a href="https://www.patreon.com/azalinworks"><img class=imageClass src="/images/patreon.png"></a>
+
+<body style="margin-left:250px; margin-right:250px" ; class=crt>
+  <br>
+  <br>
+  <a><img href="https://azalin.nekoweb.org/" src="images/azalin.gif" alt="Hey, that's us!" )></a>
+  <br>
+  <a href="index.html"><img class=imageClass src="images/home.png"></a><a href="vns.html"><img class=imageClass
+      src="images/visualnovels.png"></a><a href="about.html"><img class=imageClass src="images/about.png"></a><a
+    class=imageClass href="contact.html"><img class=imageClass src="images/contact.png"></a><a href="extras.html"><img
+      class=imageClass src="images/extras.png"></a><a href="not_found.html"><img class=imageClass
+      src="images/wiki.png"></a>
+  <br>
+  <br>
+  <marquee style="color:#f23d3d"> <img src="images/rosen1.png">Rosebound currently in development!<img
+      src="images/rosen2.png"> <img src="images/moon.png">
+    <font color="3dfff2">Caelestis Phylaca will receive more updates after the release of Rosebound.</font><img
+      src="images/moon.png"> <img src="images/augmaII.png">
+    <font color="#d075fa">Augma II Arc I will also be receiving a remake titled Augma II: Endless Vogelkafig, a complete
+      reimagining of Augma and beyond.</font><img src="images/augmaII.png"><img src="images/evileye.png">
+    <font color="#ffffff">di/aphragm para/digHm has been fully released.</font><img src="images/evileye.png">
+  </marquee>
+  <br>
+  <br>
+  <b class=crt>AZALINWORKS WORK NUMBER 4: AUGMA II ENDLESS VOGELKAFIG</b>
+  <br>
+  <br>
+  More information coming soon!
+  <br>
+  <br>
+  <a href="https://twitter.com/azalinworks"><img class=imageClass src="images/twitter.png"></a><a
+    href="https://bsky.app/profile/azalinworks.bsky.social"><img class=imageClass src="images/bluesky.png"></a><a
+    href="https://azalinworks.itch.io"><img class=imageClass src="images/itchio.png"></a><a
+    href="https://discord.gg/GFHVRD77bM"><img class=imageClass src="images/discord.png"><a
+      href="https://www.patreon.com/azalinworks"><img class=imageClass src="images/patreon.png"></a>
     <br>
     <br>
     From Azalin, with love. ♡
     <br>
-	2024 Azalinworks©
+    2024 Azalinworks©
 </body>
+
 </html>
