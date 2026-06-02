@@ -1,0 +1,35 @@
+body {
+	background-image: url("images/tile1.png");
+	color: #b8faff;
+	font-family: Ms Gothic, Helvetica, Arial, Sans-Serif;
+	text-align: Center;
+}
+
+a:hover{
+text-shadow: #7AFFF8 0 0 4px;
+color: white;
+text-decoration:none;
+-webkit-transition: all linear 400ms;
+-moz-transition: all linear 400ms;
+-ms-transition: all linear 400ms;
+-o-transition: all linear 400ms;
+transition: all linear 400ms;
+}
+
+a:link {
+	color:#f098fa;
+}
+
+a:visited {
+	color:#9a4ba3;
+	transition: 0.5 ease-in-out;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: flex-start;
+	
+}
