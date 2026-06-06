@@ -41,15 +41,6 @@
  	transition: 0.5 ease-in-out;
  }
 
- .container {
- 	display: flex;
- 	flex-direction: row;
- 	flex-wrap: wrap;
- 	align-items: center;
- 	align-content: flex-start;
-
- }
-
  .imageClass {
  	-webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
  	filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
@@ -61,12 +52,51 @@
 
  /* Index */
 
+ .novel-container {
+ 	display: grid;
+ 	grid-auto-flow: row;
+ 	justify-content: center;
+ 	margin: 2rem 0;
+ }
+
  .azalinstats {
  	position: absolute;
  	margin: auto;
  	bottom: 0;
  	line-height: 10px;
  	font-size: 10px;
+ }
+
+ /* Marquee */
+
+
+ .marquee {
+ 	overflow: hidden;
+ 	display: flex;
+ 	position: relative;
+ 	user-select: none;
+ 	gap: 1rem;
+ }
+
+ .marquee-content {
+ 	flex-shrink: 0;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	gap: 1rem;
+ 	min-width: 100%;
+ 	list-style: none;
+
+ 	animation: scroll 50s linear infinite;
+ }
+
+ @keyframes scroll {
+ 	from {
+ 		transform: translateX(0);
+ 	}
+
+ 	to {
+ 		transform: translateX(calc(-100% - 1rem));
+ 	}
  }
 
  /* Crt filter */
